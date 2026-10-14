@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности — gdrive-lite</title>
+<style>
+:root{--blue:#2563eb;--ink:#0f172a;--mut:#64748b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font:-apple-system,system-ui,sans-serif;color:var(--ink);background:#f8fafc;line-height:1.65}
+.wrap{max-width:680px;margin:0 auto;padding:56px 24px}
+h1{font-size:30px;margin-bottom:4px}
+.upd{color:var(--mut);font-size:14px;margin-bottom:32px}
+h2{font-size:17px;margin:28px 0 8px}
+p{color:#334155;font-size:15px;margin-bottom:10px}
+code{background:#e2e8f0;border-radius:4px;padding:1px 6px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Политика конфиденциальности gdrive-lite</h1>
+<p class="upd">Последнее обновление: 14 октября 2026</p>
+
+<h2>Какие данные обрабатываются</h2>
+<p>gdrive-lite — клиент резервного копирования на Google Drive для macOS. Приложение:</p>
+<p>1) выполняет вход через ваш аккаунт Google (OpenID и email — для отображения активного профиля);</p>
+<p>2) по вашему явному указанию читает выбранные вами локальные папки и фото/видео с подключённого по кабелю iPhone;</p>
+<p>3) загружает эти файлы в ваш собственный Google Drive в папку «gdrive-lite Backups».</p>
+<p>Область доступа — <code>https://www.googleapis.com/auth/drive.file</code>: приложение видит только файлы, созданные им самим, и не имеет доступа к остальному содержимому вашего Диска.</p>
+
+<h2>Где хранятся данные</h2>
+<p>Файлы — исключительно в вашем Google Drive. Локально на вашем компьютере хранятся: OAuth-токен доступа и служебный журнал синхронизации (<code>~/.config/gdrive-lite/</code>).</p>
+
+<h2>Чего приложение не делает</h2>
+<p>Данные не передаются третьим лицам, не продаются, не используются для аналитики, профилирования или рекламы. Приложение не собирает телеметрию.</p>
+
+<h2>Удаление данных</h2>
+<p>Выход (<code>gdrive-lite logout</code>) и удаление приложения удаляют токен и локальные служебные данные. Файлы в вашем Google Drive остаются вашими и управляются только вами.</p>
+
+<h2>Контакты</h2>
+<p>По любым вопросам о данных: <a href="mailto:novikov_dmitrii@icloud.com">novikov_dmitrii@icloud.com</a></p>
+</div>
+</body>
+</html>
